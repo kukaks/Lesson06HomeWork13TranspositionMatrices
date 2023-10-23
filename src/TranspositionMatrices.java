@@ -27,12 +27,12 @@ public class TranspositionMatrices {
                 matrixNxM[j][i] = matrixMxN[i][j];
             }
         }
-        // Виведення матриці M x N
-        System.out.println("Матриця N x M:");
+        // Виведення матриці
+        System.out.println("Матриця :");
         printMatrix(matrixMxN);
 
-        // Виведення транспонованої матриці N x M
-        System.out.println("Транспонована матриця M x N:");
+        // Виведення транспонованої матриці
+        System.out.println("Транспонована матриця :");
         printMatrix(matrixNxM);
     }
     // Метод для виведення матриці
